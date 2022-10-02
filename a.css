@@ -1,0 +1,117 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-color: blueviolet;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin:10px;
+    padding:10px;
+    align-items: center;
+}
+
+nav img{
+    height: 65px;
+}
+
+.a nav ul{
+    list-style-type: none;
+}
+
+.a nav ul li a{
+    color:white;
+    text-decoration: none;
+    border-style: ridge;
+    padding:5px;
+    border-radius: 11px;
+    border-color:orange;
+}
+
+.a nav ul li a:hover{
+    box-shadow: 2px 2px gold;
+    transition-duration:1S;
+    background-color: aqua;
+    color:black;
+    border-width:thick;
+    cursor:pointer;
+}
+
+.a nav ul li{
+    display:inline-block;
+    position: relative;
+    margin:10px;
+    padding:5px;
+}
+
+
+.c {
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+
+}
+
+.c a img{
+    height:50px;
+    margin:10px;
+
+}
+
+
+.c ul{
+    list-style-type:none;
+}
+
+
+.c ul li{
+    display:inline-block;
+    margin:10px;
+    padding: 10px;
+}
+
+.c ul li a{
+    color:coral;
+    text-decoration: none;
+}
+
+
+
+.d{
+    text-align: center;
+    color:white;
+    margin-top: 100px;
+    text-shadow: 2px 2px 2px orangered;
+    font-size: 20px;
+}
+.d p{
+    color:white;
+}
+.d button{
+    border-style: ridge;
+    padding:9px;
+    margin:30px;
+    width:15%;
+    font-size:large;
+    font-weight: bold;
+    color:rgb(0, 0, 0);
+    border-radius: 100px;
+    border-color: transparent;
+    background-color: rgb(181, 176, 179);
+
+}
+.d button:hover{
+    box-shadow: 2px 2px 2px  orange;
+    color:blue;
+    transition-duration:1s;
+    cursor: pointer;
+ 
+
+}
+
